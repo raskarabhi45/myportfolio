@@ -1,0 +1,166 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem; 
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+   
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+ .education
+ .experience
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    transition: var(--transition);
+
+    
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem; */
+   
+}
+
+/* .education{
+    padding-left: 200px;
+} */
+  
+
+ h3.title
+{
+    display: flex;
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    
+}
+
+ .timeline-box
+{
+    flex: 0 0 100%;
+    display: flex;
+}
+
+ .timeline
+{
+    background: var(--color-bg-variant);
+    padding: 30px 15px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: var(--transition);
+
+
+}
+
+.timeline:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+
+}
+
+ .timeline .timeline-item
+{
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 50px;
+
+}
+
+ .timeline .timeline-item:last-child
+{
+    padding-bottom: 0;
+}
+
+ .timeline .timeline-item::before
+{
+    content: '';
+    width: 1px; 
+    position: absolute;
+    height: 100%;
+    left: 7px;
+    top: 0;
+    background-color: var(--skin-color);
+
+}
+
+ .timeline .circle-dot
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50% ;
+    background-color: var(--skin-color);
+}
+ .timeline .timeline-date
+{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+}
+
+ .timeline .timeline-date .fa
+{
+    margin-right: 5px;
+}
+
+ .timeline .timeline-title
+{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+ .timeline .timeline-text
+{
+    line-height:25px ;
+    font-size: 16px;
+    text-align: justify;
+    
+}
+
+
+/*=====================MEDIA QUERIES (SMALL DEVICES)============================*/
+@media screen and (max-width:600px) {
+    .row{
+        flex-direction: column;
+        gap: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .education{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .experience{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: auto;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    
+    }

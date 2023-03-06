@@ -1,0 +1,88 @@
+import React from 'react';
+import './portfolio.css'
+import IMG1 from '../../assets/portfolio1.png'
+import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio3.png'
+import IMG4 from '../../assets/portfolio4.png'
+import IMG5 from '../../assets/portfolio5.png'
+import IMG6 from '../../assets/portfolio6.png'
+
+//DO NOT USE THE IMAGE IN PRODUCTION
+
+const data=[
+  {
+    id:1,
+    image:IMG1,
+    title:'Simple ToDiList Application',
+    github:'https://github.com/raskarabhi45/todolist',
+    demo: 'https://todolist-raskarabhi45.vercel.app/'
+  },
+  {
+    id:2,
+    image:IMG2,
+    title:'Weather Application',
+    github:'https://github.com/raskarabhi45/tempapp',
+    demo: 'https://tempapp-raskarabhi45.vercel.app/'
+  },
+  {
+    id:3,
+    image:IMG3,
+    title:'Advance ToDiList Application',
+    github:'https://github.com/raskarabhi45/todolistpro',
+    demo: 'https://todolistpro-raskarabhi45.vercel.app/'
+  },
+  {
+    id:4,
+    image:IMG4,
+    title:'Restaurant Menu Application',
+    github:'https://github.com/raskarabhi45/RestoMenu',
+    demo: 'https://resto-menu-raskarabhi45.vercel.app/'
+  },
+  {
+    id:5,
+    image:IMG5,
+    title:'Live Covid Tracker Application',
+    github:'https://github.com/raskarabhi45/livecovidtracker',
+    demo: 'https://livecovidtracker-raskarabhi45.vercel.app/'
+  },
+  {
+    id:6,
+    image:IMG6,
+    title:'My Portfolio Application',
+    github:'https://github.com/raskarabhi45/portfolio',
+    demo: 'https://portfolio-raskarabhi45.vercel.app/'
+  },
+]
+
+const Portfolio=()=> {
+  return (
+    <section id='portfolio'>
+      <h5>My React Work</h5>
+      <h2>Portfolio</h2>
+
+      <div className="container portfolio__container">
+        {
+          data.map(({id,image,title,github,demo})=>
+          {
+            return(        
+        <article key={id} className='portfolio__item'>
+          <div className="portfolio__item-img">
+          <img src={image} alt={title} />
+          </div>
+          <h3>{title}</h3>
+          <div className="portfolio__item-cta">
+          <a href={github} className='btn'>Github</a>
+          <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+            )
+          }
+          )
+        }
+
+      </div>
+    </section>
+  )
+}
+
+export default Portfolio;
