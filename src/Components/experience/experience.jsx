@@ -175,7 +175,7 @@ const Experience = () => {
     <article className="experience__details">
       <AiFillCheckCircle className=".experience__details-icon" />
       <div>
-      <h4>ML</h4>
+      <h4>Machine Learning</h4>
       <small className="text-align">Beginner</small>
       </div>
     </article>
@@ -218,7 +218,7 @@ const Experience = () => {
     <article className="experience__details">
     <AiFillCheckCircle className=".experience__details-icon" />
       <div>
-      <h4>OS</h4>
+      <h4>Operating System</h4>
       <small className="text-align">Intermediate</small>
       </div>
     </article>
@@ -226,7 +226,7 @@ const Experience = () => {
     <article className="experience__details">
     <AiFillCheckCircle className=".experience__details-icon" />
       <div>
-      <h4>CN</h4>
+      <h4>Computer Network</h4>
       <small className="text-align">Intermediate</small>
       </div>
     </article>
