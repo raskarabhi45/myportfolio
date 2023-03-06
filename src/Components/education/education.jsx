@@ -19,7 +19,7 @@ const education = [
     score: "87.38/100",
   },
   {
-    id: 1,
+    id: 3,
     date: '2018',
     title: "SSC",
     college: "Jyotirling Highschool Gulunche ",
@@ -85,7 +85,7 @@ const Education = () => {
                               <h3 class="timeline-title">{title}</h3>
                               <p class="timeline-text">{college} </p>
                               <p class="timeline-text">{std} </p>
-                              <p class="timeline-text">Score -: {score} </p>
+                              <p class="timeline-text">Score :- {score} </p>
                             </div>
                           </>
                         );
