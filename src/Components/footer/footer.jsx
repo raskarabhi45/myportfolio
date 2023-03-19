@@ -1,5 +1,7 @@
 import React from 'react'
 import './footer.css'
+import Aos from "aos";
+import "aos/dist/aos.css";
 import {FiTwitter} from 'react-icons/fi'
 import { GrInstagram} from 'react-icons/gr';
 import { BsFacebook} from 'react-icons/bs';
