@@ -16,13 +16,13 @@ const About = () => {
 
       <div className="container about__container">
         <div className="about__me">
-          <div className="about__me-image">
+          <div  className="about__me-image">
             <img src={ME} alt="About Image" />
           </div>
         </div>
 
         <div className="about__content">
-        <div className="about__cards">
+        <div data-aos="fade-up" className="about__cards">
 
           <article
           className="about__card">
@@ -35,7 +35,7 @@ const About = () => {
           className="about__card">
           <TbCertificate className="about__icon"/>
             <h5>Achievements</h5>
-            <small>Certificates</small>
+            <a href="#certificates"><small>Certificates</small></a>
           </article>
 
           <article
@@ -51,7 +51,7 @@ const About = () => {
 Seeking a responsible position in an organization, which gives me chance to improve knowledge, enhance my skills and enable me to strive towards the overall development of the organization.
           </p>
 
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a data-aos="fade-right" href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
     </section>

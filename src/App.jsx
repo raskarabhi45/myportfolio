@@ -12,6 +12,8 @@ import Footer from "./Components/footer/footer";
 import Education from "./Components/education/education";
 import Navbar from "./Components/navbar/navbar";
 import Certificates from "./Components/certificates/certificates";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const App=()=>{
 

@@ -11,9 +11,10 @@ const Header = () => {
     
 
       <header>
-        <div class="day-night s-icon">
+        {/* <div class="day-night s-icon">
           <i class="fa fa-moon"></i>
-        </div>
+        </div> */}
+
         <div className="container header__container">
           <h5>Hello I'm</h5>
           <h1>Abhishek Raskar</h1>
@@ -24,7 +25,7 @@ const Header = () => {
             Scroll Down
           </a>
 
-          <div className="me">
+          <div data-aos="slide-up" className="me">
             <img src={ME} alt="me" />
           </div>
         </div>

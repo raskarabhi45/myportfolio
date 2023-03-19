@@ -1,4 +1,6 @@
 import React from "react";
+// import Aos from "aos";
+// import "aos/dist/aos.css";
 import "./education.css";
 
 const education = [
@@ -65,7 +67,7 @@ const Education = () => {
 
         <div class="row">
 
-          <div className="education">
+          <div data-aos="fade-right" className="education">
           <div class="col">
             <h3 class="title">Education</h3>
             
@@ -98,7 +100,7 @@ const Education = () => {
             </div>
 
 
-            <div class="experience ">
+            <div data-aos="fade-left" class="experience ">
               <div className="col">
                 <h3 class="title">Activities</h3>
                 <div class="timeline-box ">

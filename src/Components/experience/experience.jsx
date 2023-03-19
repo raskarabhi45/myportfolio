@@ -1,5 +1,6 @@
 import React from "react";
 import "./experience.css";
+
 import { AiFillCheckCircle } from "react-icons/ai";
 
 const Experience = () => {
@@ -10,7 +11,7 @@ const Experience = () => {
 
       <div className="container experience__container">
 
-        <div className="experience__frontend">
+        <div data-aos="fade-right" className="experience__frontend">
           <h3>Frontend Development</h3>
 
           <div className="experience__content">
@@ -67,7 +68,7 @@ const Experience = () => {
         </div>
 
 
-        <div className="experience__backend">
+        <div data-aos="fade-left" className="experience__backend">
 
         <h3>Backend Development</h3>
 
@@ -126,7 +127,7 @@ const Experience = () => {
 
         </div>
 
-        <div className="experience__backend">
+        <div data-aos="fade-right" className="experience__backend">
 
 <h3>Coding Skills</h3>
 
@@ -185,7 +186,7 @@ const Experience = () => {
 
        </div> 
 
-       <div className="experience__backend">
+       <div data-aos="fade-left" className="experience__backend">
 
 <h3>Coursework</h3>
 

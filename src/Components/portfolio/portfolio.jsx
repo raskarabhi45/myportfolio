@@ -60,12 +60,12 @@ const Portfolio=()=> {
       <h5>My React Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio__container">
+      <div  className="container portfolio__container">
         {
           data.map(({id,image,title,github,demo})=>
           {
             return(        
-        <article key={id} className='portfolio__item'>
+        <article data-aos="flip-left" key={id} className='portfolio__item'>
           <div className="portfolio__item-img">
           <img src={image} alt={title} />
           </div>
