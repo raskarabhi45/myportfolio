@@ -25,7 +25,7 @@ const Header = () => {
             Scroll Down
           </a>
 
-          <div data-aos="slide-up" className="me">
+          <div data-aos="fade-up" className="me">
             <img src={ME} alt="me" />
           </div>
         </div>

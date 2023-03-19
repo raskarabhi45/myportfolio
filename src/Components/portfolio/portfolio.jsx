@@ -65,7 +65,7 @@ const Portfolio=()=> {
           data.map(({id,image,title,github,demo})=>
           {
             return(        
-        <article data-aos="flip-left" key={id} className='portfolio__item'>
+        <article data-aos="fade-up" key={id} className='portfolio__item'>
           <div className="portfolio__item-img">
           <img src={image} alt={title} />
           </div>

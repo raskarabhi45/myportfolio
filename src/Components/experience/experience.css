@@ -69,11 +69,9 @@ transition: var(--transition);
     }
 
     .experience__container > div{
-        padding: 2rem, 1rem;
-        width: 80%;
-        
-         
-    }
+        padding: 2rem, 1rem; 
+         width: 80%; 
+            }
 
     }
     

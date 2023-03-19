@@ -67,7 +67,7 @@ const Education = () => {
 
         <div class="row">
 
-          <div data-aos="fade-right" className="education">
+          <div data-aos="fade-up" className="education">
           <div class="col">
             <h3 class="title">Education</h3>
             
@@ -100,7 +100,7 @@ const Education = () => {
             </div>
 
 
-            <div data-aos="fade-left" class="experience ">
+            <div data-aos="fade-up" class="experience ">
               <div className="col">
                 <h3 class="title">Activities</h3>
                 <div class="timeline-box ">

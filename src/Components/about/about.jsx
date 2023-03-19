@@ -51,7 +51,7 @@ const About = () => {
 Seeking a responsible position in an organization, which gives me chance to improve knowledge, enhance my skills and enable me to strive towards the overall development of the organization.
           </p>
 
-          <a data-aos="fade-right" href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a data-aos="fade-up" href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
     </section>
