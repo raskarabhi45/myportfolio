@@ -6,11 +6,11 @@ import "./education.css";
 const education = [
   {
     id: 1,
-    date: '2020 - 2024',
+    date: '2021 - 2024',
     title: "BE in Electronics and Telecommunication Engineering",
     college: "Dr. DY Patil College Of Engineering Akurdi , Pune  ",
     std: "TE in ENTC Engineering",
-    score: "8.95/10",
+    score: "9.2/10",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const education = [
     title: "SSC",
     college: "Jyotirling Highschool Gulunche ",
     std: "10th",
-    score: "92.30/100",
+    score: "93.20/100",
   },
 ];
 
