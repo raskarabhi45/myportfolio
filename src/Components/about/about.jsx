@@ -1,7 +1,7 @@
 //rafce shortcut
 import React from "react";
 import "./about.css";
-import ME from "../../assets/abhi.jpg";
+import ME from "../../assets/college5.jpg";
 import {FaAward} from 'react-icons/fa'
 import {FaUsers} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
