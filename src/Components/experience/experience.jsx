@@ -59,8 +59,8 @@ const Experience = () => {
             <article className="experience__details">
               <AiFillCheckCircle className=".experience__details-icon" />
               <div>
-              <h4>Tailwind</h4>
-              <small className="text-align">Beginner</small>
+              <h4>Thymeleaf</h4>
+              <small className="text-align">Intermediate</small>
               </div>
             </article>
           </div>
@@ -232,13 +232,13 @@ const Experience = () => {
       </div>
     </article>
 
-    <article className="experience__details">
+    {/* <article className="experience__details">
       <AiFillCheckCircle className=".experience__details-icon" />
       <div>
       <h4>System Design</h4>
       <small className="text-align">Beginner</small>
       </div>
-    </article>
+    </article> */}
   </div>
 
 
