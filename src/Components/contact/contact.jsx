@@ -5,11 +5,18 @@ import {RiMessengerLine} from 'react-icons/ri'
 import {ImWhatsapp} from 'react-icons/im'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Contact = () => {
 
+  const toastOptions = {
+    position: 'top-right',
+    autoClose: 8000,
+    pauseOnHover: true,
+    theme: 'dark',
+  };
 
   const form=useRef();
 
@@ -17,8 +24,12 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_wvgfozl', 'template_qflxgnc', form.current, 'xuiiD69Xt78yM9-d1')
-      e.target.reset();
-      alert("The Form has been Submitted.");
+    
+    const data="Your form is successfully submitted";
+    toast.success(data, toastOptions);
+        console.log(data);
+    e.target.reset();
+      //toast.error(data.error, toastOptions);
   };
 
 
@@ -55,6 +66,7 @@ const Contact = () => {
 
         {/* END of Contact option */}
         <form ref={form} onSubmit={sendEmail}>
+        <ToastContainer/>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows='7' placeholder='Your Message 'required></textarea>
