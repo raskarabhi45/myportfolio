@@ -9,7 +9,7 @@ const education = [
     date: '2021 - 2024',
     title: "BE in Electronics and Telecommunication Engineering",
     college: "Dr. DY Patil College Of Engineering Akurdi , Pune  ",
-    std: "TE in ENTC Engineering",
+    std: "BE in ENTC Engineering",
     score: "9.2/10",
   },
   {
